@@ -1,0 +1,9 @@
+# Python
+venv
+**/__pycache__
+
+# App Specific
+.env
+
+# IDE
+.vscode
