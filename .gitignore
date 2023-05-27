@@ -7,3 +7,8 @@ venv
 
 # IDE
 .vscode
+
+# Neo4j local DB
+
+neo4j_db/data
+neo4j_db/plugins
