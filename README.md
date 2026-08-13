@@ -1,3 +1,5 @@
+
+
 # Langchain Neo4j Knowledge Graph Demo
 
 This project aims to demonstrate the potential use of Neo4j graph database as memory of Langchain agent, which contains
@@ -13,7 +15,7 @@ This project aims to demonstrate the potential use of Neo4j graph database as me
 
 # Setup
 
-1. Start the Neo4j database container with docker-compose, or prepare a Neo4j database instance (e.g. Neo4j Desktop, cloud instance etc.).
+1. Start the Neo4j database container with docker-compose (`cd neo4j_db && docker-compose up -d`), or prepare a Neo4j database instance (e.g. Neo4j Desktop, cloud instance etc.).
 2. Access your Neo4j database with browser with `http://localhost:7474/browser/` (assuming that Neo4j database is hosted locally) and follow instructions in web UI to reset password. (Hint: initial username and password are both `neo4j`)
 3. Copy .env.example to .env and fill in the variables, namely Neo4j database connection config, and OpenAI API secret key.
 4. Initiate virtual environment and install dependencies (or manage dependencies in other way)
